@@ -42,7 +42,46 @@
     </header>
 
     <main>
+        {{-- jumbotron --}}
         <div id="banner"></div>
+        
+        {{-- Section cards --}}
+        <section id="content-top">
+            <div class="container cards-section">
+                <button id="current-series">CURRENT SERIES</button>
+                
+                    <div class="main-top-content">
+                        <div class="col">
+                            <div class="card">
+                                
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                
+                            </div>
+                        </div><div class="col">
+                            <div class="card">
+                                
+                            </div>
+                        </div><div class="col">
+                            <div class="card">
+                                
+                            </div>
+                        </div><div class="col">
+                            <div class="card">
+                                
+                            </div>
+                        </div><div class="col">
+                            <div class="card">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <button id="load">LOAD MORE</button>
+                
+            </div>
+        </section>
     </main>
 
     <footer>
