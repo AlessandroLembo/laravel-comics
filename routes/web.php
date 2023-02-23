@@ -13,10 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Rotta per la pagina che visualizza tutti i comics
 Route::get('/comics', function () {
     return view('comics');
-});
+})->name('comics');
 
+// Rotta per la pagina dove visualizzo un comic specifico
 Route::get('/comic', function () {
     return view('comic');
-});
+})->name('comic');

@@ -7,6 +7,18 @@
     <title>DC COMICS</title>
 </head>
 <body>
-    <h1>DC COMICS</h1>
+    <header>
+        <figure>
+            <img src="{{asset('images/dc-logo.png')}} " alt="Logo Comics">
+        </figure>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
