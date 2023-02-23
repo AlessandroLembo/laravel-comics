@@ -17,46 +17,7 @@
         <div id="banner"></div>
         
         @yield('card')
-        {{-- Section cards --}}
-        {{-- <section id="content-top">
-            <div class="container cards-section">
-                <button id="current-series">CURRENT SERIES</button>
-                
-                <div class="main-top-content">
-                    <div class="col">
-                        <div class="card">
-                            
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            
-                        </div>
-                    </div><div class="col">
-                        <div class="card">
-                            
-                        </div>
-                    </div><div class="col">
-                        <div class="card">
-                            
-                        </div>
-                    </div><div class="col">
-                        <div class="card">
-                            
-                        </div>
-                    </div><div class="col">
-                        <div class="card">
-                            
-                        </div>
-                    </div>
-                </div>
-
-                <button id="load">LOAD MORE</button>
-                
-            </div>
-        </section>  --}}
         
-
          @yield('main_links')
         {{-- Main menu --}}
         {{-- <section id="links-main">
