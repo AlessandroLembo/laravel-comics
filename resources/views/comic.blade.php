@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Single Comic</title>
+    <title>{{env('APP_NAME')}} | Single Comic</title>
 </head>
 <body>
     <h1>Single comic</h1>
