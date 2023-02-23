@@ -4,8 +4,15 @@
 
 @section('card')
 
-<div class="container">
-   <h1>Single</h1>
-</div>
+<section id="poster">
+    
+</section>
+<section id="comic-selected">
+
+</section>
+
+<section id="about-comic">
+
+</section>
 
 @endsection

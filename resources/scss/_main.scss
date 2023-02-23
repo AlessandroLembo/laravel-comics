@@ -5,8 +5,26 @@
     background-size: cover;
 }
 
+// page: comic, section poster
+#poster{
+    background-color: $primary;
+    height: 70px;
+}
+
+// page: section comic-selected
+#comic-selected{
+    height: 500px;
+    background-color: white;
+}
+// page: section about-comic
+#about-comic{
+    height: 500px;
+    background-color: whitesmoke;
+    position: relative;
+}
+
 #content-top {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
     min-height: 400px;
     padding: 1rem 0;
 

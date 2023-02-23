@@ -18,31 +18,7 @@
         
         @yield('card')
         
-         @yield('main_links')
-        {{-- Main menu --}}
-        {{-- <section id="links-main">
-            <nav class="container ">
-                <ul class="main-images">
-                    <li class="choose-operations">
-                        <a href="#"></a>
-                        <span>Comics</span>                    
-                    </li>
-                    <li class="choose-operations">
-                        <a href="#"></a>
-                        <span>Comics</span>                    
-                    </li><li class="choose-operations">
-                        <a href="#"></a>
-                        <span>Comics</span>                    
-                    </li><li class="choose-operations">
-                        <a href="#"></a>
-                        <span>Comics</span>                    
-                    </li><li class="choose-operations">
-                        <a href="#"></a>
-                        <span>Comics</span>                    
-                    </li>
-                </ul>
-            </nav>
-        </section> --}}
+        @yield('main_links')
         
         {{-- Jumbotron DC --}}
         <section id="jumbotron">
