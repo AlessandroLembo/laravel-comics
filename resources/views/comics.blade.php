@@ -17,18 +17,32 @@
            </div>
         </div>    
         <div class="main-header">
-            <div class="container">
+            <div class="container row">
                 <figure>
                     <img src="{{asset('images/dc-logo.png')}} " alt="Logo Comics">
                 </figure>
-                <h1 class="text-danger">dc</h1>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                </nav>
+                <input type="text" placeholder="search">
             </div>
         </div>
         
     </header>
 
     <main>
-
+        <div id="banner"></div>
     </main>
 
     <footer>
