@@ -47,10 +47,20 @@
     height: 240px;
     margin: 2rem auto 0.5rem;
     padding: 0 1rem;
-    border: 1px dashed yellow;
 
-    .card{
-        height: $h100;
+        h3{
+            color: white;
+            margin: 0.5rem 0;
+        }
+}
+
+.comic-images{
+    width: 100%;
+    height: 100%;
+
+    img{
+        width: 100%;
+        height: 200px;
     }
 }
 
