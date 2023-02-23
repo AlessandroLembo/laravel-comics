@@ -53,3 +53,86 @@
         height: $h100;
     }
 }
+
+// Main menu
+#links-main {
+    background-color: $primary;
+    height: 150px;
+    position: relative;
+}
+
+.main-images {
+    @include vertical_algnm;
+    justify-content: space-around;
+    height: $h100;
+
+    li:last-child img {
+        height: 45px;
+    }
+}
+
+.choose-operations {
+    @include vertical_algnm;
+    height: $h100;
+
+    img {
+        height: 70px;
+        margin-right: 10px;
+    }
+}
+
+
+// Jumbotron DC
+#jumbotron {
+    background-image: url('../../public/images/footer-bg.jpg');
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+
+}
+
+.jumbo-container {
+    @include vertical_algnm;
+    justify-content: space-between;
+    height: $h100;
+}
+
+.link-lists {
+    display: flex;
+    align-items: flex-start;
+    height: $h100;
+    margin-top: 8rem;
+
+    li {
+        padding-bottom: 3px;
+    }
+
+    a {
+        color: rgba(255, 255, 255, 0.3);
+    }
+}
+
+.jumbo-container figure {
+    height: $h100;
+    @include vertical_algnm;
+}
+
+.jumbo-container img {
+    height: 140%;
+}
+
+
+/* Utils */
+.top-list {
+    margin-bottom: 1.5rem;
+}
+
+.center-list {
+    margin: 0 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
