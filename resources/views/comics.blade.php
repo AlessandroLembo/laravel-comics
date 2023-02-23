@@ -11,13 +11,20 @@
 </head>
 <body>
     <header>
-        <div class="">
+        <div class="top-header">
+           <div class="container">
 
+           </div>
+        </div>    
+        <div class="main-header">
+            <div class="container">
+                <figure>
+                    <img src="{{asset('images/dc-logo.png')}} " alt="Logo Comics">
+                </figure>
+                <h1 class="text-danger">dc</h1>
+            </div>
         </div>
-        <figure>
-            <img src="{{asset('images/dc-logo.png')}} " alt="Logo Comics">
-        </figure>
-        <h1 class="text-danger">dc</h1>
+        
     </header>
 
     <main>
