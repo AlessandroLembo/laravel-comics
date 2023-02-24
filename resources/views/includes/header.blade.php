@@ -1,37 +1,5 @@
 @php
-    $menu_comics = [
-        [
-        'link' => 'CHARACTERS',
-        ],
-        [
-        'link' => 'COMICS',
-        ],
-        [
-        'link' => 'MOVIES',
-        ],
-        [
-        'link' => 'TV',
-        ],
-        [
-        'link' => 'GAMES',
-        ],
-        [
-        'link' => 'COLLECTIBLES',
-        ],
-        [
-        'link' => 'VIDEOS',
-        ],
-        [
-        'link' => 'FANS',
-        ], 
-        [
-        'link' => 'NEWS',
-        ], 
-        [
-        'link' => 'SHOP',
-        ],
-    ]
-@endphp
+    $menu_links = config('menu');
 @endphp
 
 <header>
@@ -57,11 +25,10 @@
                     <li><a href="#">FANS</a></li>
                     <li><a href="#">NEWS</a></li>
                     <li><a href="#">SHOP</a></li> --}}
-                @foreach ( $menu_comics as $link )
-                   <li><a href="#">{{$link['link']}} </a></li>
-                    
-                @endforeach
-                    
+                    @foreach ($menu_links as $link)
+                        <li><a href="{{route($link['route_name'])}}">{{$link['link']}}</a></li>
+                    @endforeach
+              
                 </ul>
             </nav>
             <div>
